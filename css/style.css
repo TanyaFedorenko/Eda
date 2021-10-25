@@ -146,7 +146,20 @@ body {
 
 
 }
-
+.swiper{
+	position: relative;
+}
+.slider__buttons{
+	position: absolute;
+	right: 46px;
+	bottom:40px;
+	z-index: 9;
+	display: flex;
+	justify-content: space-between;
+	width: 100px;}
+.slider-button{
+cursor:pointer
+}
 .button {
 	padding: 11px 50px;
 	text-decoration: none;
@@ -202,14 +215,13 @@ body {
 	overflow: hidden;
 	position: relative;
 	padding: 32px;
-	max-width: 570px;
 	min-height: 380px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	background-repeat: no-repeat;
 	background-size: cover;
-	flex: 0 1 50%;
+	flex: 50%;
 	margin: 20px;
 }
 
@@ -518,3 +530,119 @@ text-decoration-line: underline;
 .social-links__link:not(:last-child){
 	margin-right: 20px;
 }
+@media(max-width:1260px){
+
+	.container {
+		max-width: 960px;
+
+	}	
+	.search-form{
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+	.tabs__contant{
+		flex-wrap: wrap;
+	}
+	.tabs__card{
+		max-width:calc( 49% - 30px);
+	}
+	.advantages__cards{
+		flex-wrap: wrap;
+	}
+	.advantages__card{
+		max-width: calc(50% - 40px);
+	}}
+	@media(max-width: 992px){
+		.container {
+			max-width: 750px;
+	
+		}
+		.slide{
+			padding: 70px;
+		}	
+		.delivery-card{
+			width: calc(50% - 30px);
+		}
+		.advantages{
+			padding: 90px 0;
+
+		}
+		.footer__logo{
+			margin-right: 40px;
+		}
+	}
+	@media(max-width: 760px){
+		.container {
+			max-width: 560px;
+	
+		}
+		.header{
+			flex-wrap: wrap;
+		}
+		.search-form{
+			order: 5;
+			margin: 15px 0;
+			flex-basis: 100%;
+		}
+		.promo{
+			flex-wrap: wrap;
+		}
+	
+	}
+	@media(max-width: 576px){
+		.container {
+			max-width: 90%;
+	
+		}
+		.tabs__card{
+			max-width:calc( 100% - 30px);
+		}
+		.advantages__card{
+			max-width:calc( 100% - 40px);
+		}
+		.section-title{
+			line-height: 32px;
+		}
+		.delivery-card{
+			width:calc( 100% - 40px);
+		}
+		.slide{
+			padding: 30px 30px 60px;
+		}
+		.slide-content{
+			max-width: 100%;
+		}
+		.slider__buttons{
+			bottom: 10px
+
+		}
+		.footer__navigation{
+			margin-right: 15px;
+		}
+		.footer__logo {
+			margin-right: 15px;
+		}
+	}
+	@media(max-width: 420px){
+		.slide__title{
+			font-size: 42px;
+		}
+		.slider__buttons {
+			right: 35%;
+		}
+		.footer__wrapper{
+			flex-wrap: wrap;
+		}
+		.footer__navigation{
+			margin: 15px 0;
+		}
+		.social-links{
+			margin: 0 auto;
+		}
+		.tabs{
+			flex-direction: column;
+		}
+		.tabs-item{
+			margin: 5px 0 5px;
+		}
+	}

@@ -191,10 +191,10 @@ body {
 
 /*promo-*/
 .promo {
-	margin-top: 50px;
+	padding-top: 50px;
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 102px;
+	margin: -20px;
 }
 
 .card {
@@ -210,6 +210,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	flex: 0 1 50%;
+	margin: 20px;
 }
 
 .card-text-light {
@@ -268,4 +269,252 @@ body {
 .salat {
 	z-index: 1;
 	background-image: url(../img/card__salat.png)
+}
+
+.section-title {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 23px;
+	margin-top: 0;
+	margin-bottom: 47px;
+}
+
+.delivery-week {
+	padding: 100px 0;
+}
+
+.delivery-cards {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -15px;
+}
+
+.delivery-card {
+	width: 275px;
+	height: 182px;
+	border-radius: 18px;
+	overflow: hidden;
+	position: relative;
+	margin: 15px;
+}
+
+.delivery-img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.delivery-tag {
+	position: absolute;
+	top: 16px;
+	left: 10px;
+	border-radius: 30px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	color: #49494F;
+	padding: 5px 10px;
+}
+
+.tag-light {
+	color: #fff;
+}
+
+.tag-health {
+	background-color: #D0FD89
+}
+
+.tag-vegetables {
+	background-color: #AEBC41;
+
+}
+
+.tag-meat {
+	background-color: #B86B78;
+}
+
+.tag-bird {
+	background-color: #D68334
+}
+
+.tag-fish {
+	background-color: #CD6255
+}
+
+.tag-child {
+	background-color: #FFFDBF
+}
+
+.tag-parent {
+	background-color: #F6FDC8
+}
+
+.tag-holiday {
+	background-color: #FEF7FE
+}
+
+/*------------*/
+.section-grey {
+	background: #F6F6F6
+}
+/*---------tabs------------------*/
+.tabs{
+	display: flex;
+	padding: 0;
+	margin: 0 0 62px;
+
+
+}
+.tabs-item{
+	list-style-type: none;
+}
+.tabs-item:not(:last-child){
+	margin-right: 58px;
+}
+.tabs-link{
+text-decoration: none;
+color:#49494F;
+font-size: 20px;
+line-height: 23px;
+}
+.active{
+	color:#F37321
+
+}
+.category {
+	padding: 40px 0 60px;
+}
+.tabs__contant{
+	display: flex;
+	justify-content: space-between;
+	margin: -16px;
+
+}
+.tabs__info{
+display: flex;
+align-items:center;
+justify-content: space-between;
+}
+.tabs__card {
+	max-width: 270px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+margin: 16px;
+	overflow: hidden;
+}
+
+.tabs__contant-description {
+	padding: 0 27px 28px 23px;
+	padding: 23px 27px;
+}
+
+.tabs__img {
+	max-width: 100%;
+}
+
+.tabs__title {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 23px;
+	margin-top: 0;
+	margin-bottom: 13px;
+}
+
+.tabs__description {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 23px;
+	color: #B9B9BE;
+}
+
+.tabs__price {
+	font-weight: 500;
+	font-size: 23px;
+	line-height: 23px;
+	display: block;
+	color: #4B4B51;
+}
+
+.tabs__weight {
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 20px;
+	color: #AAAAB1;
+}
+.button-outline{
+	padding: 15px 25px;
+	color:#F37321;
+	border: 2px solid #F37321;
+	background:transparent;
+	border-radius: 33px;
+}
+.button-center{
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+	width: 315px;
+	cursor:pointer;
+}
+.advantages{
+padding: 90px 0 216px;
+}
+.advantages__section-title{
+	margin-bottom: 52px;
+}
+.advantages__cards{
+	display: flex;
+	justify-content: space-between;
+	margin: -19px;
+}
+.advantages__card{
+	max-width: 270px;
+	text-align: center;
+	box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+border-radius: 18px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+padding: 30px 24px 24px;
+margin:19px ;
+}
+
+.adavantage__title{
+	font-weight: 500;
+font-size: 16px;
+line-height: 23px;
+}
+.advantage__text{
+	font-size: 14px;
+line-height: 22px;
+color: #49494F;
+}
+.footer{
+	background:#F6F6F6;
+	padding: 40px 0;
+}
+.footer__wrapper{
+	display: flex;
+	align-items:center;
+}
+.footer__logo{
+	width: 205px;
+	margin-right: 50px;
+}
+.footer__link:not(:last-child){
+	margin-right: 50px;
+}
+.footer__link{
+	font-size: 16px;
+line-height: 23px;
+color:#000;
+text-decoration-line: underline;
+}
+.social-links{
+	margin-left: auto;
+}
+.social-links__link{
+	text-decoration: none;
+}
+.social-links__link:not(:last-child){
+	margin-right: 20px;
 }
